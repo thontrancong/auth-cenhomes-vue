@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "auth-cenhomes-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package embed login for cenhomes ecosystem. Dev and maintain by thontc",
   "repository": {
     "type": "git",
