@@ -1,0 +1,22 @@
+{
+  "private": false,
+  "name": "auth-cenhomes-vue",
+  "version": "1.0.0",
+  "description": "Package embed login for cenhomes ecosystem. Dev and maintain by thontc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thontrancong/auth-cenhomes-vue.git"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thontc@cenhome.vn",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-i18n": "^8.24.0"
+  }
+}
