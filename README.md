@@ -1,5 +1,5 @@
-# Auth cenhomes vue
-> a simple vue component about calendar
+# auth-cenhomes-vue
+> Package embed login for cenhomes ecosystem. Dev and maintain by thontc
 
 ## Installation
 ```

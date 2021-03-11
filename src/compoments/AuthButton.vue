@@ -11,7 +11,7 @@
             },
         ]"
     >
-        Đây là nút 
+        Đây là nút
         <slot></slot>
     </button>
 </template>
@@ -38,12 +38,10 @@ export default {
             },
         },
     },
-
     methods: {
         onClick(event) {
             this.$emit("click", event);
         },
-
         onDoubleClick(event) {
             this.$emit("dblclick", event);
         },
@@ -63,46 +61,36 @@ export default {
     user-select: none;
     cursor: pointer;
 }
-
 /* --> COLORS <-- */
-
 .nice-handsome-button--blue {
     background-color: #0194ef;
 }
-
 .nice-handsome-button--green {
     background-color: #1bb934;
 }
-
 .nice-handsome-button--red {
     background-color: #e1112c;
 }
-
 /* --> SIZES <-- */
-
 .nice-handsome-button--small {
     padding: 8px 10px;
     border-radius: 4px;
     font-size: 12px;
     line-height: 12px;
 }
-
 .nice-handsome-button--default {
     padding: 12px 14px;
     border-radius: 6px;
     font-size: 14px;
     line-height: 16px;
 }
-
 .nice-handsome-button--large {
     padding: 16px 18px;
     border-radius: 8px;
     font-size: 16px;
     line-height: 20px;
 }
-
 /* --> BOOLEANS <-- */
-
 .nice-handsome-button--rounded {
     border-radius: 60px;
 }

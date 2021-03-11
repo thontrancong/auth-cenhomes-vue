@@ -1,24 +1,38 @@
 {
-  "private": false,
-  "name": "auth-cenhomes-vue",
+  "name": "auth-cenhomes-vue-test",
   "version": "0.0.1",
   "description": "Package embed login for cenhomes ecosystem. Dev and maintain by thontc",
+  "main": "dist/dist.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thontrancong/auth-cenhomes-vue.git"
   },
-  "main": "./dist/index.js",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --inline-vue --name index src/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-loader": "^7.1.2",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0"
   },
-  "author": "thontc@cenhome.vn",
+  "keywords": [
+    "cenhomes"
+  ],
+  "author": "zqs",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thontrancong/auth-cenhomes-vue.git"
+  },
+  "homepage": "https://github.com/thontrancong/auth-cenhomes-vue.git",
   "dependencies": {
-    "@vue/cli-service": "^4.5.11",
-    "vue": "^2.6.12",
-    "vue-i18n": "^8.24.0",
-    "vue-template-compiler": "^2.6.12"
+    "dayjs": "^1.8.27"
   }
 }
