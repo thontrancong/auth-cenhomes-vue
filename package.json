@@ -1,6 +1,6 @@
 {
   "name": "auth-cenhomes-vue-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Package embed login for cenhomes ecosystem. Dev and maintain by thontc",
   "main": "dist/dist.js",
   "scripts": {
